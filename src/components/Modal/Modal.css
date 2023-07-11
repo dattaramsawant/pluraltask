@@ -1,0 +1,28 @@
+.modalBG{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+}
+
+.modalContainer{
+    min-width: 250px;
+    max-width: calc(100vw - 100px);
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.closeIcon{
+    text-align: end;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 100%;
+}
